@@ -1,5 +1,7 @@
+import CJ.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        CJUsuarios jugador= new CJUsuarios();
+        jugador.cjingresar();
     }
 }
